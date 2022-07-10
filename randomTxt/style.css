@@ -9,8 +9,6 @@ body {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-}
-body {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -24,9 +22,10 @@ body {
     background-size: cover;
     background-blend-mode: darken;
 }
+
 .container {
-   width: 4px auto;
-   height: fit-content;
+   width: 30rem;
+   height: 20rem;
 }
 .header {
    background-color: rgb(31, 29, 29);
@@ -44,6 +43,7 @@ body {
 }
 .text__area {
    margin-bottom: 2rem;
+
 }
 .person {
    font-weight: 600;
